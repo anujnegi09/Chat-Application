@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import assets, { messagesDummyData } from '../assets/assets.js';
+import assets from '../assets/assets.js';
 import { formatMessageTime } from '../lib/utils.js';
 import { useContext } from 'react';
 import { ChatContext } from '../../context/Chatcontext.jsx';
