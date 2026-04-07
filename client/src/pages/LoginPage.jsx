@@ -13,7 +13,6 @@ const LoginPage = () => {
   const [isDataSubmitted, setIsDataSubmitted] = useState(false);
 
   const {login} = useContext(AuthContext)
-
   const onSubmitHandler = (event)=>{
     event.preventDefault();
 
@@ -25,7 +24,7 @@ const LoginPage = () => {
 }
 
   return (
-    <div className='min-h-screen bg-cover bg-center flex items-center justify-center gap-8 sm:justify-evenly max-sm:flex-col backdrop-blur-2xl'>
+    <div style={{ backgroundImage: `url(${assets.bgImage})` }} className='min-h-screen bg-cover bg-center flex items-center justify-center gap-8 sm:justify-evenly max-sm:flex-col backdrop-blur-2xl'>
      {/* ------------left------------- */}
       <img src={assets.logo_big} alt="" className='w-[min(30vw,250px)]' />
 
