@@ -12,7 +12,7 @@ const HomePage = () => {
 
 
   return (
-    <div style={{ backgroundImage: `url(${assets.bgImage})` }} className="border w-full h-screen sm:px-[5%] sm:py-[5%]">
+    <div className="border w-full h-screen sm:px-[5%] sm:py-[5%]">
       <div
         className={`backdrop-blur-xl border-2 border-gray-600 rounded-2xl overflow-hidden h-full grid grid-cols-1 relative ${
           selectedUser
